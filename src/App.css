@@ -6,22 +6,25 @@
   text-align: center;
   font-family: 'Mukta',Arial, Helvetica, sans-serif;
 }
-h1 {
+.name {
   font-family: 'Teko',Arial, Helvetica, sans-serif;
-  font-size: 3.5em;
-  color: rgb(21, 149, 102);
+  font-size: 3.7em;
+  color: rgb(11, 191, 125);
   text-shadow: 0px 0px .7em rgb(0, 0, 0); 
   margin-bottom: 0;
 }
-h3 {
+.subHeader {
   margin-top: 0;
+  font-size: 1.7em;
+  color: rgba(0, 192, 218, 0.925);
+  text-shadow: 0px 0px .3em rgb(0, 0, 0);
 }
 .header { grid-area: header; }
 .middle { 
+  grid-area: middle;
   display: flex;
   align-items: center;
   justify-content: center;
-  grid-area: middle;
   background-color: rgba(11, 13, 40, 0.47);
   color: rgb(171, 255, 213);
   border: 2px solid green;
@@ -42,7 +45,6 @@ h3 {
   align-items: center;
   grid-area: left;
 }
-
 .grid-container {
   min-height: 90vh;
   display: grid;
@@ -52,7 +54,6 @@ h3 {
     'left middle right'
     'left footer right';
 }
-
 .links {
   display: flex;
   justify-content: center;
@@ -74,9 +75,8 @@ h3 {
   transition: height .5s;
 }
 .social-link-image:hover {
-  height: 6em;
+  height: 7em;
 }
-
 .leftBtn {
   background-color: transparent;
   border: none;
@@ -106,16 +106,28 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid white;
   height: 95%;
   width: 98%;
 }
 .project-card {
-  max-width: 20%;
-  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 30%;
+  height: 80%;
+  border: 2px solid rgba(0, 192, 218, 0.925);
+  box-shadow: 0px 0px 15px black;
+  margin: 1em;
+}
+.project-card > a {
+  color: rgb(171, 255, 213);
+  text-decoration: none;
+  margin: 4%;
 }
 .project-image {
   max-width: 90%;
+  max-height: 90%;
 }
 .about-me {
   display: flex;
@@ -126,6 +138,16 @@ h3 {
   max-height: 90%;
   font-size: 1.2em;
 }
-p{
+.about-para {
   margin: .2em;
 }
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 9em;
+  width: 9em;
+  margin: 4%;
+}
+

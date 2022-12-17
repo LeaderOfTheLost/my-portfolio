@@ -21,7 +21,8 @@ const Home = () => {
         </button>
       </div>
       <div className="header">
-        <h1>David Caldwell</h1>
+        <h1 className="name">David Caldwell</h1>
+        <h3 className="subHeader">Software Engineer | Web Developer</h3>
       </div>
       <div className="middle center-container"></div>
       <div className="right">

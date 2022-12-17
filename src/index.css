@@ -4,3 +4,9 @@ body {
   background: url('./assets/images/background.jpg') no-repeat center;
   background-size: 100%;
 }
+@media screen and (min-width: 480px) {
+  body {
+    background: url('./assets/images/background.jpg') ;
+  background-size: cover;
+  }
+}
