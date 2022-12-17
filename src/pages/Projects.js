@@ -4,8 +4,7 @@ import arrowLeft from '../assets/images/arrow-left.png'
 import arrowRight from '../assets/images/arrow-right.png'
 import mtswSS from '../assets/images/mtsw-ss.png'
 import dtSS from '../assets/images/doubles-trouble-ss.png'
-import rnrSS from '../assets/images/rollercoasters.png'
-import gtsSS from '../assets/images/green-tree-ss.png'
+import dbSS from '../assets/images/dive-buddy-ss.png'
 
 const Projects = () => {
   let navigate = useNavigate()
@@ -40,12 +39,14 @@ const Projects = () => {
             <a
               href="https://doubles_trouble_browser_game.surge.sh/"
               target="_blank"
+              rel="noreferrer"
             >
               Deployed Site
             </a>
             <a
               href="https://github.com/LeaderOfTheLost/doubles_trouble_browser_game"
               target="_blank"
+              rel="noreferrer"
             >
               Github Repo
             </a>
@@ -60,57 +61,38 @@ const Projects = () => {
             <a
               href="https://more-than-seven-wonders.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
             >
               Deployed Site
             </a>
             <a
               href="https://github.com/LeaderOfTheLost/more_than_seven_wonders"
               target="_blank"
+              rel="noreferrer"
             >
               Github Repo
             </a>
           </div>
           <div className="project-card">
-            <h4>Rock-n-Rollercoasters</h4>
+            <h4>The Dive Buddy</h4>
             <img
-              src={rnrSS}
+              src={dbSS}
               className="project-image"
               alt="Project Screenshot"
             />
             <a
-              href="https://rock-n-rollercoaster.herokuapp.com/"
+              href="https://the-dive-buddy.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
             >
               Deployed Site
             </a>
             <a
-              href="https://github.com/ajluc/Rock-n-roller-coasters"
+              href="https://github.com/LeaderOfTheLost/the-dive-buddy"
               target="_blank"
+              rel="noreferrer"
             >
               Github Repo
-            </a>
-          </div>
-          <div className="project-card">
-            <h4>Green Tree Schools</h4>
-            <img
-              src={gtsSS}
-              className="project-image"
-              alt="Project Screenshot"
-            />
-            <a href="https://green-tree-school.herokuapp.com/" target="_blank">
-              Deployed Site
-            </a>
-            <a
-              href="https://github.com/kalenluciano/student-course-hackathon-frontend"
-              target="_blank"
-            >
-              Github Frontend Repo
-            </a>
-            <a
-              href="https://github.com/James-fleming394/student-course-hackathon-backend"
-              target="_blank"
-            >
-              Github Backend Repo
             </a>
           </div>
         </div>

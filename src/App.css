@@ -59,12 +59,16 @@
   justify-content: center;
 }
 .link {
-  margin: .2em;
+  display: flex;
+  margin: .5em;
   color: rgb(21, 149, 102);
   background-color: rgba(182, 182, 182, 0.15);
   font-size: 1.3em;
   text-decoration: none;
-  width: 7em;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  width: 10em;
   box-shadow: 0px 0px 1em black;
 }
 .link:hover {
@@ -149,5 +153,23 @@
   height: 9em;
   width: 9em;
   margin: 4%;
+}
+.home-center{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 2em;
+  color: rgba(0, 192, 218, 0.925);
+}
+.headshot-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid rgba(0, 192, 218, 0.925);
+}
+.headshot{
+  height: 55%;
+  width: 55%;
+  border: 2px solid rgba(0, 192, 218, 0.925);
+  border-radius: 50%;
 }
 
