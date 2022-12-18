@@ -32,7 +32,7 @@ const Home = () => {
         <div className="home-words">
           <h3>DESIGN.</h3>
           <h3>CREATE.</h3>
-          <h3>ADVENTURE.</h3>
+          <h3>EXPLORE.</h3>
         </div>
       </div>
       <div className="right">
