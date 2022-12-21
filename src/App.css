@@ -29,8 +29,8 @@
   color: rgb(171, 255, 213);
   border: 2px solid green;
   border-radius: 10px;
-  height: 50vh;
-  width: 100%;
+  min-height: 50vh;
+  min-width: 85vw;
 }
 .footer { grid-area: footer; }
 .right { 
@@ -61,7 +61,8 @@
 .link {
   display: flex;
   margin: .5em;
-  color: rgb(21, 149, 102);
+  border: .05em solid green;
+  color: rgba(0, 192, 218, 0.925);
   background-color: rgba(182, 182, 182, 0.15);
   font-size: 1.3em;
   text-decoration: none;
@@ -140,7 +141,7 @@
   justify-content: center;
   max-width: 90%;
   max-height: 90%;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .about-para {
   margin: .2em;
@@ -173,3 +174,12 @@
   border-radius: 50%;
 }
 
+@media  screen and (max-width: 700px) {
+  .App {
+    background-color: red;
+  }
+  body{
+    background-color: red;
+  }
+  
+}
