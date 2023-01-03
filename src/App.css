@@ -164,7 +164,7 @@
     flex-direction: column;
   }
   .project-card {
-    max-width: 90%;
+    width: 90%;
   }
   .contact-links {
     display: grid;
