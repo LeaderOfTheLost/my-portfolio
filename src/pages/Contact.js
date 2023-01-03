@@ -11,7 +11,7 @@ const Contact = () => {
         <h1 className="name">David Caldwell</h1>
         <h3 className="subHeader">Contact Me!</h3>
       </div>
-      <div className="middle center-container">
+      <div className="middle center-container contact-links">
         <div className="contact-card">
           <a
             href="https://www.linkedin.com/in/david-caldwell92/"
