@@ -1,28 +1,10 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import arrowLeft from '../assets/images/arrow-left.png'
-import arrowRight from '../assets/images/arrow-right.png'
-import mtswSS from '../assets/images/mtsw-ss.png'
-import dtSS from '../assets/images/doubles-trouble-ss.png'
-import dbSS from '../assets/images/dive-buddy-ss.png'
+import mtswSS from "../assets/images/mtsw-ss.png"
+import dtSS from "../assets/images/doubles-trouble-ss.png"
+import dbSS from "../assets/images/dive-buddy-ss.png"
 
 const Projects = () => {
-  let navigate = useNavigate()
-
-  const handleLeftClick = () => {
-    navigate('/about')
-  }
-  const handleRightClick = () => {
-    navigate('/contact')
-  }
-
   return (
     <div className="grid-container">
-      <div className="left">
-        <button className="leftBtn" onClick={handleLeftClick}>
-          <img className="btnImage" src={arrowLeft} alt="arrow-left" />
-        </button>
-      </div>
       <div className="header">
         <h1 className="name">David Caldwell</h1>
         <h3 className="subHeader">Projects</h3>
@@ -96,11 +78,6 @@ const Projects = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className="right">
-        <button className="rightBtn" onClick={handleRightClick}>
-          <img className="btnImage" src={arrowRight} alt="arrow-right" />
-        </button>
       </div>
     </div>
   )

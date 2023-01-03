@@ -1,30 +1,12 @@
-import React from "react"
 import emailIcon from "../assets/images/email-icon.png"
 import linkedInIcon from "../assets/images/linkedin.png"
 import githubIcon from "../assets/images/GithubLogo.png"
 import docIcon from "../assets/images/document-icon.png"
-import arrowLeft from "../assets/images/arrow-left.png"
-import arrowRight from "../assets/images/arrow-right.png"
 import resume from "../assets/MainResume.pdf"
-import { useNavigate } from "react-router-dom"
 
 const Contact = () => {
-  let navigate = useNavigate()
-
-  const handleLeftClick = () => {
-    navigate("/projects")
-  }
-  const handleRightClick = () => {
-    navigate("/")
-  }
-
   return (
     <div className="grid-container">
-      <div className="left">
-        <button className="leftBtn" onClick={handleLeftClick}>
-          <img className="btnImage" src={arrowLeft} alt="arrow-left" />
-        </button>
-      </div>
       <div className="header">
         <h1 className="name">David Caldwell</h1>
         <h3 className="subHeader">Contact Me!</h3>
@@ -78,11 +60,6 @@ const Contact = () => {
           </a>
           <p>Resume</p>
         </div>
-      </div>
-      <div className="right">
-        <button className="rightBtn" onClick={handleRightClick}>
-          <img className="btnImage" src={arrowRight} alt="arrow-right" />
-        </button>
       </div>
     </div>
   )
