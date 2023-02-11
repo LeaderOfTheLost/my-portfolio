@@ -1,4 +1,5 @@
 import headshot from "../assets/images/portfolio-pic.jpg"
+import { BsFillArrowRightCircleFill } from "react-icons/bs"
 
 const Home = () => {
   return (
@@ -12,9 +13,13 @@ const Home = () => {
           <img className="headshot" src={headshot} alt="headshot" />
         </div>
         <div className="home-words">
-          <h3>DESIGN.</h3>
-          <h3>CREATE.</h3>
-          <h3>EXPLORE.</h3>
+          <h3>Portfolio has been moved!</h3>
+          <h3>Please follow the link below!!</h3>
+          <div>
+            <a href="https://david-caldwell.netlify.app/">
+              <BsFillArrowRightCircleFill className="redirectBtn" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
